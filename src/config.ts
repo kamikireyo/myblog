@@ -7,15 +7,19 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Test',
-  subtitle: 'eTest Site',
-  lang: 'jp',
-  themeHue: 250,
+  title: 'comet64',
+  subtitle: '',
+  lang: 'ja',
+  themeHue: 85,
   banner: {
     enable: false,
-    src: 'assets/images/demo-banner.png',
+    src: 'assets/images/banner.png',
   },
-  favicon: [    // Leave this array empty to use the default favicon
+  favicon: [
+    {
+      src: 'assets/images/icon.png'
+    }
+    // Leave this array empty to use the default favicon
     // {
     //   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
     //   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
@@ -38,30 +42,30 @@ export const navBarConfig: NavBarConfig = {
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/avatarCute.png',
+  name: 'baltimoreJack',
+  bio: '少しずつ強くなっていく。それがいいんだ。',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
+      name: 'Twiter',
+      icon: 'fa6-brands:mastodon',
+      url: 'https://mk.u0conveni.club/@kamikire',
     },
     {
       name: 'Steam',
       icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      url: 'https://steamcommunity.com/profiles/76561198102700497/',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/kamikireyo',
     },
   ],
 }
 
 export const licenseConfig: LicenseConfig = {
-  enable: true,
+  enable: false,
   name: 'CC BY-NC-SA 4.0',
   url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
 }
