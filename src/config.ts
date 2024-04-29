@@ -44,7 +44,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/avatarCute.png',
   name: 'baltimoreJack',
-  bio: '少しずつ強くなっていく。< br > それがいいんだ。',
+  bio: '少しずつ強くなっていく。¥nそれがいいんだ。',
   links: [
     {
       name: 'Twiter',
